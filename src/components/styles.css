@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+.navbar {
+  background-color: #E3CBCB;
+  padding: 10px 20px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left, .navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+  font-family: 'Lacquer', sans-serif;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
