@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Bebas+Neue&family=Lacquer&display=swap');
 
+/* Navbar */
 .navbar {
   background-color: #E3CBCB;
   padding: 10px 20px;
@@ -11,7 +12,13 @@
   align-items: center;
 }
 
-.navbar-left, .navbar-right {
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-left, .navbar-right, .navbar-center {
   display: flex;
   align-items: center;
 }
@@ -24,5 +31,91 @@
 }
 
 .navbar-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
+
+/* Fonts */
+
+.bebas-header {
+  font-family: 'Bebas Neue', sans-serif;
+  color: black;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 5rem; /* Increase the font size */
+  letter-spacing: 0.2em; /* Add spacing between letters */
+  text-transform: uppercase; /* Ensure all letters are uppercase */
+  width: 100%; /* Make sure it stretches across the page */
+}
+
+/* Landing */
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff; /* You can use the color from your palette */
+  color: black;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 800px; /* Adjust this value based on your design */
+  width: 100%;
+  padding: 20px;
+}
+
+.mobile .content {
+  flex-direction: column;
+}
+
+.landing-image {
+  width: 50%;
+  max-width: 200px; /* Adjust this value based on your design */
+  margin-right: 20px;
+}
+
+.landing-text {
+  width: 50%;
+  /* Add padding to give space between the image and the text */
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .landing-image {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .landing-text {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+/* Image grid */
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* This sets the padding between images */
+  justify-content: center;
+}
+
+.image-container {
+  flex: 1 1 calc(25% - 20px); /* Adjust percentage to control the number of images per row */
+  margin: 10px;
+  box-sizing: border-box;
+  width: calc(25% - 20px); /* Same as flex-basis for consistency */
+  height: 200px; /* Set a fixed height for the image containers */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+  border-radius: 5px; /* Optional: for rounded corners */
+}
+
