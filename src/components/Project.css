@@ -1,0 +1,50 @@
+.project-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    padding-top: 4rem;
+  }
+  
+  .project-info-grid {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    gap: 1rem;
+    color: #181717;
+  }
+  
+  .project-name {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #181717;
+    text-transform: uppercase;
+  }
+  
+  .project-description {
+    font-size: 1.25rem;
+    color: #181717;
+  }
+  
+  .project-sub-description {
+    font-size: 1rem;
+    color: #606060;
+  }
+  
+  .project-more {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #181717;
+    cursor: pointer;
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  
+  .project-divider {
+    grid-column: 1 / -1;
+    border-top: 1px solid #181717;
+    margin-top: 4rem;
+  }
+  

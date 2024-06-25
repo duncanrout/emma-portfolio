@@ -1,20 +1,30 @@
+@import '@fontsource/inter';
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #F3F3F3; /* Background color */
+
+  scrollbar-width: none; /* Firefox */
+}
+
 .App {
-  text-align: center;
+  color: #181717; /* Primary color */
+  padding: 5rem 10rem; /* Global padding on the left and right */
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.secondary {
+  color: #606060; /* Secondary color */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Hide scrollbar for modern browsers */
+::-webkit-scrollbar {
+  width: 0; /* This will hide the scrollbar */
+  background-color: transparent; /* Optional: Set a background color */
 }
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Optional: Set thumb color */
+}
+
