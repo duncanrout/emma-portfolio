@@ -1,4 +1,3 @@
-// src/About.jsx
 import React from 'react';
 import './About.css';
 
@@ -17,10 +16,8 @@ function About() {
         </div>
       </div>
       <div className="about-right">
-        <img src="https://via.placeholder.com/400" alt="About Image" />
+        <img src="https://via.placeholder.com/400" alt="About" />
       </div>
-      
-      {/* New row */}
       <div className="about-extra-row">
         <div className="about-extra-box">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

@@ -18,11 +18,16 @@
     color: inherit;
     font-family: inherit;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 650;
     cursor: pointer;
   }
   
-  .navbar-item:hover {
+  /* .navbar-item:hover {
     text-decoration: underline;
-  }
+  } */
   
+  .navbar-item a:link,
+  .navbar-item a:visited {
+    color: inherit; /* This ensures the color is inherited from the parent, removing the purple color */
+    text-decoration: none; /* This removes the underline */
+  }
