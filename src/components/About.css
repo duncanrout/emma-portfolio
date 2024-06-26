@@ -46,10 +46,6 @@
   padding: 2rem 0;
 }
 
-.software-title, .software-description, .software-other {
-  padding: 1rem;
-}
-
 .software-title {
   grid-column: 1 / span 1;
   font-weight: bold;
