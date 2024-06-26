@@ -30,8 +30,9 @@
     display: flex;
     align-items: start;
     justify-content: start;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #181717;
+    font-weight: 600;
   }
   
   .box4 {

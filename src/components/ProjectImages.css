@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     gap: 10px;
     justify-content: left;
+    min-height: 100vh;
 }
 
 .image-gallery img {

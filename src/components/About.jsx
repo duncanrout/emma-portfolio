@@ -18,12 +18,14 @@ function About() {
       <div className="about-right">
         <img src="https://via.placeholder.com/400" alt="About" />
       </div>
-      <div className="about-extra-row">
-        <div className="about-extra-box">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div className="software-grid">
+        <div className="software-title">Main Software</div>
+        <div className="software-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet lacinia ligula, ac aliquam sapien tempor sed.
         </div>
-        <div className="about-extra-box">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div className="software-title">Main Skills</div>
+        <div className="software-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet lacinia ligula, ac aliquam sapien tempor sed.
         </div>
       </div>
     </div>
