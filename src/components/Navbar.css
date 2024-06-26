@@ -1,8 +1,7 @@
-/* src/Navbar.css */
 .navbar {
     display: flex;
     justify-content: flex-end;
-    padding: 1rem;
+    /* padding: 1rem; */
     background: transparent;
   }
   
@@ -22,12 +21,8 @@
     cursor: pointer;
   }
   
-  /* .navbar-item:hover {
-    text-decoration: underline;
-  } */
-  
   .navbar-item a:link,
   .navbar-item a:visited {
-    color: inherit; /* This ensures the color is inherited from the parent, removing the purple color */
-    text-decoration: none; /* This removes the underline */
+    color: inherit;
+    text-decoration: none;
   }

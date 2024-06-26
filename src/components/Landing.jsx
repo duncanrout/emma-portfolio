@@ -1,7 +1,10 @@
 import React from 'react';
 import './Landing.css';
+import useIsMobile from '../useIsMobile';
 
 function Landing() {
+  const isMobile = useIsMobile();
+
   return (
     <div className="landing-grid">
       <div className="box1">

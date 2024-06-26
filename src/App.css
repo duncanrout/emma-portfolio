@@ -4,7 +4,6 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background-color: #F3F3F3; /* Background color */
-
   scrollbar-width: none; /* Firefox */
 }
 
@@ -28,3 +27,9 @@ body {
   background-color: transparent; /* Optional: Set thumb color */
 }
 
+/* Media query to adjust padding for smaller screens */
+@media (max-width: 768px) {
+  .App {
+    padding: 2rem; /* Set padding to 0 for smaller screens */
+  }
+}
