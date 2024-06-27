@@ -5,7 +5,6 @@ import './ProjectImages.css'; // Import the CSS file
 const ProjectImages = () => {
     // Get the 'path' parameter from the URL using useParams
     const { path } = useParams();
-    console.log(path);
 
     // Object to map paths to image counts
     const imageCounts = {
@@ -23,7 +22,10 @@ const ProjectImages = () => {
     const getRandomSize = () => `${Math.floor(Math.random() * (25 - 18 + 1)) + 18}rem`;
 
     return (
+        <>
+        <h1>{path}</h1>
         <div className="image-gallery">
+            
             {/* Map through the images array and render each image */}
             {images.map((image, index) => {
                 const size = getRandomSize();
@@ -38,6 +40,7 @@ const ProjectImages = () => {
                 );
             })}
         </div>
+        </>
     );
 };
 

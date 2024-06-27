@@ -9,7 +9,7 @@ function Landing() {
         <h1>Hello, I'm Emma Rout.</h1>
       </div>
       <div className="box2">
-        <p>A midwest Chicagoan, mixed media artist. Advocate for self-care and human connection.</p>
+        <p>I'm a midwest Chicagoan, mixed media artist, and an advocate for self-care and human connection. My works include ceramics, prints, digital art, drawing, painting, sculpture, and other combinations of techniques.</p>
       </div>
       <div className="box3">
         <p>↓</p>

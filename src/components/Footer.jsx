@@ -49,7 +49,7 @@ const Footer = () => {
                         </>
                     ) : (
                         <>
-                            LinkedIn {pdfIcon}
+                            Resume {pdfIcon}
                         </>
                     )}
                 </a>

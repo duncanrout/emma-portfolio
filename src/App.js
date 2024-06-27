@@ -5,17 +5,18 @@ import About from './components/About';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import ProjectImages from './components/ProjectImages';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
-
   return (
     <Router>
       <div className="App">
         <Navbar />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/project/:path" element={ <ProjectImages />} />
+          <Route path="/project/:path" element={<ProjectImages />} />
         </Routes>
         <Footer />
       </div>
