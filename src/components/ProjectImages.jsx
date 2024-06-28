@@ -8,8 +8,14 @@ const ProjectImages = () => {
 
     // Object to map paths to image counts
     const imageCounts = {
-        Acrylic: 2,
-        Ceramic: 10,
+        Acrylic: 4,
+        Ceramic: 9,
+        Digital: 3,
+        Maya: 3,
+        Printmaking: 2,
+        Sculpture: 5,
+        Watercolor: 3,
+        Zbrush: 6,
     };
 
     // Determine the number of images based on the path parameter
