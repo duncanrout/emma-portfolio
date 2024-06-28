@@ -15,7 +15,7 @@ const ProjectImages = () => {
         Printmaking: 2,
         Sculpture: 5,
         Watercolor: 3,
-        Zbrush: 6,
+        ZBrush: 6,
     };
 
     // Determine the number of images based on the path parameter
