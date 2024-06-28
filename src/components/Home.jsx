@@ -53,11 +53,11 @@ const projectData = [
       path: 'Watercolor'
     },
     {
-      name: 'Zbrush',
-      description: 'Zbrush is a digital sculpting tool that combines 3D/2.5D modeling, texturing, and painting. It is widely used for creating highly detailed models.',
-      subDescription: 'Artists use Zbrush for its ability to sculpt intricate details and its powerful rendering capabilities, making it ideal for character and creature design.',
-      imagePath: '/assets/Zbrush/image1.jpg',
-      path: 'Zbrush'
+      name: 'ZBrush',
+      description: 'ZBrush is a digital sculpting tool that combines 3D/2.5D modeling, texturing, and painting. It is widely used for creating highly detailed models.',
+      subDescription: 'Artists use ZBrush for its ability to sculpt intricate details and its powerful rendering capabilities, making it ideal for character and creature design.',
+      imagePath: '/assets/ZBrush/image1.jpg',
+      path: 'ZBrush'
     }
   
   // Add more projects as needed

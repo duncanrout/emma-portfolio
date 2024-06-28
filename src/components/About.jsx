@@ -22,7 +22,7 @@ function About() {
         </div>
       </div>
       <div className="about-right">
-        <img src="/assets/emmaid.jfif" alt="About" />
+        <img src="/assets/emmaid.jpg" alt="About" />
       </div>
       <div className="software-grid">
         <div className="software-title">Main Software:</div>
