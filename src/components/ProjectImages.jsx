@@ -25,7 +25,7 @@ const ProjectImages = () => {
     const images = Array.from({ length: numberOfImages }, (_, index) => `/assets/${path}/image${index + 1}.jpg`);
 
     // Function to generate a random size between 18 and 25 rem
-    const getRandomSize = () => `${Math.floor(Math.random() * (25 - 18 + 1)) + 18}rem`;
+    const getRandomSize = () => `${Math.floor(Math.random() * (25 - 18 + 1)) + 12}rem`;
 
     return (
         <>

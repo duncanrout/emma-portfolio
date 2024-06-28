@@ -1,7 +1,7 @@
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 1rem;
     justify-content: left;
     min-height: 100vh;
     padding-top: 3rem;
